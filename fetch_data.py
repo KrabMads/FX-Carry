@@ -20,7 +20,7 @@ import datetime
 import requests
 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
-FRED_API_KEY = os.environ.get("FRED_API_KEY", "YOUR_FRED_API_KEY_HERE")
+FRED_API_KEY = os.environ.get("FRED_API_KEY", "e1b5a7d1b9c9c52c2a51ceafff0693c5")
 # Get a free key at: https://fred.stlouisfed.org/docs/api/api_key.html
 
 DB_PATH = os.path.join(os.path.dirname(__file__), "data", "fx_data.db")
